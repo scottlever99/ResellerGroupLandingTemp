@@ -1,0 +1,22 @@
+﻿@{
+}
+
+<div class="text-center" style="margin-top: 100px">
+    <div class="buttonDiv">
+        <button style="--clr:#39FF14" onclick="instaClick()"><span>Follow Our Instagram</span><i></i></button>
+    </div>
+    <div class="buttonDiv">
+        <button style="--clr:#39FF14" onclick="discordClick()"><span>Discord Link</span><i></i></button>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function discordClick(){
+        window.location.href = '@Url.Content("https://ecomclubdiscord.azurewebsites.net/")';
+    }
+
+    function instaClick() {
+        window.location.href = '@Url.Content("https://www.instagram.com/theresellergroup/")';
+    }
+</script>
